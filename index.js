@@ -3,7 +3,7 @@ let input = document.getElementById('input');
 add.addEventListener('click', () => {
     let task = document.querySelector('ul');
     let li = document.createElement('li');
-    li.innerHTML = '<span> </span>' +  input.value + '<button> Remove </button>';
+    li.innerHTML = '<span> </span>' +  input.value + '<button> <i class="fa fa-trash" aria-hidden="true"></i></button>';
     task.appendChild(li);
     input.value = '';
     li.querySelectorAll('button').forEach(e => {
@@ -21,6 +21,7 @@ add.addEventListener('click', () => {
                 e.style.backgroundColor = 'red';
             } 
         });
+        
     });
     
 });

@@ -44,7 +44,7 @@ h2{
     padding: 10px 30px;
     outline: none;
     color: white;
-    background-color: blue;
+    background-color: rgb(92, 4, 255);
     border-radius: 7px;
 }
 
@@ -82,3 +82,4 @@ span{
     margin-right: 10px;
     background-color: white;
 }
+
